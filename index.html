@@ -4,18 +4,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>THANAWAT</title>
+  <title>Thanawat | 0736b</title>
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
-<body class="bg-gray-900 font-sans">
+<body class="bg-gray-900 font-sans antialiased">
   <!-- Container 1 -->
-  <div class="pt-4 shadow-lg bg-black bg-opacity-60">
+  <div class="pt-4 shadow-lg bg-black bg-opacity-50">
 
     <!-- Navigation Bar -->
     <nav class="flex justify-center">
       <!-- Nav Items -->
-        <div class="item space-x-10 text-gray-400 font-thin md:text-base">
+        <div class="item space-x-4 text-gray-400 font-thin md:text-base">
           <a href="#" class="uppercase hover:text-gray-200">Home</a>
           <a href="#" class="uppercase hover:text-gray-200">About</a>
           <a href="#" class="uppercase hover:text-gray-200">Experience</a>
@@ -24,7 +24,7 @@
     </nav>
 
     <!-- Cover -->
-    <div class="font-semibold text-gray-300 mt-20 md:mt-24 grid justify-center mx-0 pb-20">
+    <div class="font-semibold text-gray-300 mt-20 md:mt-36 grid justify-center mx-0 pb-32">
       <div class="space-x-2">
         <h1 class="text-2xl md:text-5xl animate-bounce"><i class="fas fa-angle-left text-yellow-600 animate-ping"></i>   WELCOME TO MY WORLD   <i class="fas fa-angle-right text-yellow-600 animate-ping"></i></h1>
       </div>
@@ -36,13 +36,27 @@
   <div class="mx-auto bg-gray-300">
     <!-- About -->
     <div class="py-4 font-bold text-black bg-opacity-20" id="aboutme">
-
       <!-- Profile -->
-      <div class="profile flex justify-center">
-          <h1>Thanawat Bumpengpun</h1>
+      <div class="mx-10">
+        <!-- Card Profile -->
+        <div class="grid sm:flex justify-start mx-auto p-8 space-x-2">
+            <img class="w-48 h-48 rounded-full mx-auto"
+                src="./img/profile.jpg">
+            <div class="pt-4 mx-auto">
+                <p class="font-semibold text-xl md:text-4xl text-gray-900">Thanawat Bumpengpun</p>
+                <p class="font-normal text-normal md:text-lg text-gray-600 pt-4">
+                  Hi, my name is Thanawat. I undergraduate from Chiang Mai University. Studying Computer Engineering. I love programming. I'm interested in website development, ui/ux, cybersecurity!
+                </p>
+            </div>
+        </div>
+                    <!-- line -->
+                    <div class="grid justify-end my-0 py-0">
+                      <span><i class="fas fa-angle-double-down text-yellow-600 animate-pulse text-4xl"></i></span>
+                    </div>
+        </div>
+        </div>
       </div>
-    </div>
-  </div>
 
+      
 </body>
 </html>
