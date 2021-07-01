@@ -8,18 +8,18 @@
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
-<body class="bg-gray-900 font-sans antialiased">
-  <!-- Container 1 -->
+<body class="bg-gray-900 font-sans subpixel-antialiased">
+  <!-- Navigation and Cover -->
   <div class="pt-4 shadow-lg bg-black bg-opacity-50">
 
     <!-- Navigation Bar -->
     <nav class="flex justify-center">
       <!-- Nav Items -->
-        <div class="item space-x-4 text-gray-400 font-thin md:text-base">
-          <a href="#" class="uppercase hover:text-gray-200">Home</a>
-          <a href="#" class="uppercase hover:text-gray-200">About</a>
-          <a href="#" class="uppercase hover:text-gray-200">Experience</a>
-          <a href="#" class="uppercase hover:text-gray-200">Contacts</a>
+        <div class="item space-x-4 text-gray-500 font-thin md:text-base">
+          <a href="#" class="uppercase hover:text-gray-200 transition-all">Home</a>
+          <a href="#" class="uppercase hover:text-gray-200 transition-all">About</a>
+          <a href="#" class="uppercase hover:text-gray-200 transition-all">Experience</a>
+          <a href="#" class="uppercase hover:text-gray-200 transition-all">Contacts</a>
         </div>
     </nav>
 
@@ -32,32 +32,37 @@
     </div>
   </div>
 
-  <!-- Container 2 -->
+  <!-- Profile -->
   <div class="mx-auto bg-gray-300">
 
     <!-- Abouts -->
-    <div class="py-4 font-bold text-black bg-opacity-20" id="aboutme">
+    <div class="font-bold text-black bg-opacity-20" id="aboutme">
 
       <!-- Profile -->
       <div class="mx-10">
 
         <!-- Card Profile -->
-        <div class="grid sm:flex justify-start mx-auto p-8 space-x-2">
+        <div class="grid sm:flex justify-start mx-auto pt-8 px-4 space-x-8 max-w-screen-xl">
             <img class="w-48 h-48 rounded-full mx-auto"
                 src="./img/profile.jpg">
-            <div class="pt-4 mx-auto">
-                <p class="font-semibold text-xl md:text-4xl text-gray-900">Thanawat Bumpengpun</p>
+            <div class="pt-10 mx-auto">
+                <p class="font-semibold text-xl md:text-4xl text-gray-800">Thanawat Bumpengpun</p>
                 <p class="font-normal text-normal md:text-lg text-gray-600 pt-4">
                   Hi, my name is Thanawat. I undergraduate from Chiang Mai University. Studying Computer Engineering. I love programming. I'm interested in website development, ui/ux, cybersecurity!
                 </p>
             </div>
         </div>
                     <!-- line -->
-                    <div class="grid justify-end my-0 py-0">
-                      <span><i class="fas fa-angle-double-down text-yellow-600 animate-pulse text-4xl"></i></span>
+                    <div class="grid justify-end my-0 lg:mx-60 pb-4">
+                      <span><i class="fas fa-angle-down text-yellow-600 animate-pulse text-4xl"></i></span>
                     </div>
         </div>
         </div>
       </div>
+
+  <!-- Skill -->
+  <div class="mx-auto bg-black bg-opacity-50 h-80">
+
+  </div>
 </body>
 </html>
