@@ -32,7 +32,7 @@
   </div>
 
   <!-- Profile -->
-  <div class="mx-auto bg-gray-300 border-b-2 border-gray-400">
+  <div class="mx-auto bg-gray-300 border-b-2 border-gray-400 shadow-md">
 
     <!-- Abouts -->
     <div class="font-bold text-black bg-opacity-20" id="aboutme">
@@ -47,7 +47,7 @@
             <div class="pt-10 mx-auto">
                 <p class="font-semibold text-xl md:text-4xl text-gray-800">Thanawat Bumpengpun</p>
                 <p class="font-normal text-normal md:text-lg text-gray-600 pt-4">
-                  Hi, my name is Thanawat. I undergraduate from Chiang Mai University. Studying Computer Engineering. I love programming. I'm interested in website development, ui/ux, cybersecurity! <span class="font-extralight animate-ping">|</span>
+                  Hi, my name is Thanawat. I undergraduate from Chiang Mai University. Studying Computer Engineering. I love programming. I'm interested in game hacking, website development, ui/ux, cybersecurity! <span class="font-extralight animate-ping">|</span>
                 </p>
             </div>
         </div>
@@ -60,17 +60,21 @@
       </div>
 
   <!-- Skill -->
-  <div class="mx-auto bg-black bg-opacity-40 pb-8">
+  <div class="mx-auto bg-black bg-opacity-40 pb-8 border-b border-gray-800">
 
     <!-- my.Skill(); -->
     <div class="grid justify-center md:justify-end pt-12 md:mx-60">
       <h2 class="font-bold text-5xl text-gray-300">my<span class="text-gray-500 animate-pulse">.</span><span class="text-yellow-600">Skill</span>()<span class="text-yellow-600">;</span><span class="animate-ping font-bold">|</span></h2>
     </div>
+    <!-- Anim Arrow -->
+    <div class="anim invisible md:visible m-0 pl-24">
+      <p class="text-7xl animate-bounce"><i class="fas fa-angle-double-down text-yellow-600 animate-ping"></i></p>
+    </div>
     
     <!-- Container of Card -->
-    <div class="my-20 mx-auto flex flex-wrap xl:flex-row sm:space-x-10 space-y-10 lg:space-y-0 justify-center">
+    <div class="mb-10 mx-auto flex flex-wrap xl:flex-row sm:space-x-10 space-y-10 lg:space-y-0 justify-center pb-32">
       <!-- Cards -->
-        <div class="border border-gray-500 h-96 w-96 rounded-lg overflow-hidden shadow-lg sm:ml-10">
+        <div class="border border-gray-500 h-96 w-96 rounded-lg overflow-hidden shadow-md sm:ml-10">
             <div class="cardname bg-gray-300 font-semibold py-4 shadow-xl">
               <h2 class="text-gray-800 text-center">Programming</h2>
             </div>
@@ -81,32 +85,39 @@
               <p class="text-normal text-gray-600">I love coding! I code desktop application using C++, frontend website using ReactJS, and I love creating bot and exploit in games.</p>
             </div>
         </div>
-        
-        <div class="border border-gray-500 h-96 w-96 rounded-lg overflow-hidden shadow-lg">
+        <!-- End Card 1 -->
+
+        <!-- Card 2 -->
+        <div class="border border-gray-500 h-96 w-96 rounded-lg overflow-hidden shadow-md">
           <div class="cardname bg-gray-300 font-semibold py-4 shadow-xl">
-            <h2 class="text-gray-800 text-center">Programming</h2>
+            <h2 class="text-gray-800 text-center">UI/UX Design</h2>
           </div>
           <div class="imgCard">
-            <img src="./img/programming1.jpg" alt="Programming">
+            <img src="./img/uiux1.jpg" alt="UI/UX Design">
           </div>
           <div class="footcard h-32 bg-gray-300 p-4">
-            <p class="text-normal text-gray-600">I love coding! I code desktop application using C++, frontend website using ReactJS, and I love creating bot and exploit in games.</p>
+            <p class="text-normal text-gray-600">User interface is a very important part of website creation. I usually paticipate in this process as a frontend developer.</p>
           </div>
       </div>
+      <!-- Card 2 End -->
         
-      <div class="border border-gray-500 h-96 w-96 rounded-lg overflow-hidden shadow-lg">
+      <!-- Card 3 -->
+      <div class="border border-gray-500 h-96 w-96 rounded-lg overflow-hidden shadow-md">
         <div class="cardname bg-gray-300 font-semibold py-4 shadow-xl">
-          <h2 class="text-gray-800 text-center">Programming</h2>
+          <h2 class="text-gray-800 text-center">Photography & Artwork</h2>
         </div>
         <div class="imgCard">
-          <img src="./img/programming1.jpg" alt="Programming">
+          <img src="./img/art2.jpg" alt="Photography and Art">
         </div>
         <div class="footcard h-32 bg-gray-300 p-4">
-          <p class="text-normal text-gray-600">I love coding! I code desktop application using C++, frontend website using ReactJS, and I love creating bot and exploit in games.</p>
+          <p class="text-normal text-gray-600">In my spare time, I like to take pictures and turn them into works of art according to my imagination.</p>
         </div>
     </div>
-
       </div>
     </div>
+
+    <footer class="mx-auto my-auto p-0 h-8 bg-black font-thin">
+      <p class="text-gray-400 text-center uppercase text-sm">made with love © 2021</p>
+    </footer>
 </body>
 </html>
