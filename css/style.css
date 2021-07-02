@@ -3,6 +3,6 @@ html {
   }
 
 .bg-naja {
-    background-image:url(./img/bgtexture.jpg);
+    background-image:url(../img/bgtexture.jpg);
     background-size: contain;
 }
