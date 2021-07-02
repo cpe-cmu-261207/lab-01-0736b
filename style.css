@@ -1,0 +1,8 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+.bg-naja {
+    background-image:url(./img/bgtexture.jpg);
+    background-size: contain;
+}
