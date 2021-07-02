@@ -6,3 +6,10 @@ html {
     background-image:url(../img/bgsl2.jpg);
     background-size: auto;
 }
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
